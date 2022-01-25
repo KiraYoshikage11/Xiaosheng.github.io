@@ -1,0 +1,54 @@
+main{
+	border:3px solid black;
+	width:800px;
+	height:500px;
+	display:grid;
+	grid-template-rows:1fr 6fr;
+}
+
+section{
+	border:3px splid black;
+	border-radius:25px;
+	padding: 20px;
+	background-color: aquamarine;
+	color:maroon;
+	font-size:
+}
+
+#menu{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+	padding:10px;
+	grid-gap:10px;
+}
+
+#menu>input{
+	background-color:yellow;
+	color:red;
+	font-size:20px;
+	font-family:'Comic Sans MS';
+	
+}
+
+#menu> input:hover{
+	background-color:red;
+	color:aquamatine;
+}
+
+#menu2{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr;
+	padding:10px;
+	grid-gap:10px;
+}
+
+#menu2>input{
+	background-color:yellow;
+	color:red;
+	font-size:20px;
+	font-family:'Comic Sans MS';
+}
+	#menu2> input:hover{
+	background-color:red;
+	color:aquamatine;
+	}
